@@ -120,3 +120,9 @@ footer {
         display: none;
     }
 }
+
+/* Main content */
+main {
+    /* Push main element down to accomodate larger header */
+    margin-top: 60px;
+}
