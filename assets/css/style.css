@@ -1,3 +1,6 @@
+/*Google fonts import*/
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;1,300&family=Oswald:wght@200..700&display=swap');
+
 /* Asterisk selector to override default styles added by the browser */
 * {
     padding: 0;
@@ -7,11 +10,12 @@
 
 /* General styles */
 body {
-    min-height: 100;
+    min-height: 100vh;
     display: flex;
     flex-direction: column;
     /* Generic project style */
     color: #3a3a3a;
+    font-family: 'Lato', sans-serif;
 }
 
 /* Header */
